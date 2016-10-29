@@ -1,0 +1,22 @@
+{
+  "name": "inventory",
+  "description": "Use QR codes to keep track of inventory",
+  "main": "app.js",
+  "authors": [
+    "Siddharth Trehan"
+  ],
+  "dependencies": {
+    "jquery": "3.1",
+    "semantic-ui": "2.2",
+    "underscore": "^1.8.3"
+  },
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

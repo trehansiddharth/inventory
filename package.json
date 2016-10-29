@@ -1,0 +1,26 @@
+{
+  "name": "inventory",
+  "version": "1.0.0",
+  "description": "Use QR codes to keep track of inventory",
+  "main": "app.js",
+  "scripts": {
+    "test": "",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trehansiddharth/inventory"
+  },
+  "author": "Siddharth Trehan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trehansiddharth/inventory/issues"
+  },
+  "homepage": "https://github.com/trehansiddharth/inventory",
+  "dependencies": {
+    "bower": "1.7",
+    "express": "4.14",
+    "pug": "^2.0.0-beta6",
+    "underscore": "^1.8.3"
+  }
+}

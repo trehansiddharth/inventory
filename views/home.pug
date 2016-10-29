@@ -1,0 +1,22 @@
+html
+    head
+        // JQuery
+        script(src="bower_components/jquery/dist/jquery.min.js")
+        // Semantic-UI
+        link(rel="stylesheet", type="text/css", href="bower_components/semantic/dist/semantic.css")
+        script(src="bower_components/semantic/dist/semantic.js")
+        // home.js
+        script(src="client/home.js")
+        // home.css
+        link(rel="stylesheet", type="text/css", href="styles/home.css")
+    body
+        div(class="ui center aligned middle aligned grid")
+            div(class="column")
+                h1(class="ui icon header")
+                    i(class="suitcase icon")
+                    div(class="content") Anthony Lab Inventory
+                br
+                a(href="/order")
+                    button(class="ui big primary button") Place Order
+                a(href="/register")
+                    button(class="ui big button") Register Item
